@@ -309,7 +309,7 @@ export default function Home() {
     };
 
     initializeAuth();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const handleContinue = () => {
     if (!apiKey.trim()) return alert("Enter your OpenRouter API key");

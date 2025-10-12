@@ -262,7 +262,7 @@ export default function Dashboard() {
                   isDarkMode ? "text-gray-400" : "text-gray-400"
                 } mb-6`}
               >
-                Click "Fetch Emails" to load your Gmail messages
+                Click &quot;Fetch Emails&quot; to load your Gmail messages
               </p>
             </div>
           )}
