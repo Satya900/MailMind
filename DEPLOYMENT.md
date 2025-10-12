@@ -94,6 +94,20 @@ MailMind/ (GitHub Repository)
 - **Frontend code is updated** - all API calls point to production backend
 - **OAuth redirect URI** - must be updated in Google Cloud Console
 - **Root directory** - crucial for Vercel to find the frontend code
+- **Dependencies fixed** - axios added to frontend package.json
+
+## 🔧 If Build Fails
+
+If you see "axios module not found" error:
+
+1. The package.json has been updated with axios dependency
+2. Push the updated code to GitHub:
+   ```bash
+   git add .
+   git commit -m "Fix: Add axios dependency to frontend"
+   git push
+   ```
+3. Redeploy on Vercel (it will auto-redeploy from GitHub)
 
 ## ✅ Success Indicators
 
